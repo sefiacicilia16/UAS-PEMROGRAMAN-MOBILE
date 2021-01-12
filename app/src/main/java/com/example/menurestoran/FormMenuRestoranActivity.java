@@ -60,7 +60,7 @@ public class FormMenuRestoranActivity extends AppCompatActivity {
             tr.setDeskripsi(tilDeskripsi.getEditText().getText().toString());
             tr.setTanggal(tanggalMenuRestoran);
             SharedPreferenceUtility.addMenuRestoran(this,tr);
-            Toast.makeText(this,"Data berhasil disimpan",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,"Dataa berhasil disimpan",Toast.LENGTH_SHORT).show();
 
             // Kembali ke layar sebelumnya setelah 500 ms (0.5 detik)
             new Handler().postDelayed(new Runnable() {
